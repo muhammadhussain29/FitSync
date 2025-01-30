@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+.playwrite{
+    font-family: "Playwrite IN", serif;
+}
+.roboto{
+    font-family: "Roboto", serif;
+}
+
+.stroke{
+    color: black;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
