@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { IoMenu } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -35,11 +36,15 @@ const Navbar = () => {
             </div>
 
             <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-14 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black md:bg-transparent`}>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Products</li>
-                <li>Gallery</li>
-                <button className='w-auto bg-red-600 rounded-full text-white px-4 py-2 text-nowrap'>Join FitSync</button>
+            <li><Link to="/">Home</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/product">Product</Link></li>
+                <li><Link to="/gallery">Gallery</Link></li>
+                <li>
+                    <button className='w-auto bg-red-600 rounded-full text-white px-4 py-2 text-nowrap'>
+                        <Link className=' px-4 py-2' to="/member">Join FitSync</Link>
+                    </button>
+                </li>
             </ul>
 
             <button onClick={showNav} className='md:hidden block text-3xl'>
