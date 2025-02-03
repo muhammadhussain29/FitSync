@@ -1,7 +1,8 @@
 import React from 'react'
 import bgImg from '../assets/bg.jpg'
+import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header = (props) => {
 
     return (
         <header
@@ -13,8 +14,10 @@ const Header = () => {
             <p className='text-xl font-light tracking-widest'>Join FitSync and take your fitness journey to the next level.</p>
             <p className='w-[60vw] text-base my-5'>At FitSync, we believe fitness is more than just a routine—it’s a lifestyle. With cutting-edge equipment, expert trainers, and a supportive community, we help you stay on track and achieve your goals. Whether you’re here to build muscle, improve endurance, or just stay active, we’ve got you covered. Let’s sync up and get stronger together!</p>
             <div className='flex'>
-                <button className='w-44 text-center bg-red-600 rounded-full text-white py-3 text-nowrap mr-5'>Leran More</button>
-                <button className='w-44 text-center bg-red-600 rounded-full text-white py-3 text-nowrap'>Achievements</button>
+                <button onClick={props.handleScroll} className='button px-7 py-3 font-semibold text-nowrap mr-5'>Leran More</button>
+                <button className='button font-semibold text-nowrap'>
+                    <Link className='px-7 py-3' to="/gallery">Achievements</Link>
+                </button>
             </div>
         </header>
     )

@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {forwardRef} from 'react';
 import { FaInfo } from "react-icons/fa";
 import { FaDumbbell } from "react-icons/fa6";
 
-const About = () => {
+const About = forwardRef((props, ref) => {
   return (
-    <section className='roboto flex flex-col justify-center items-center md:px-16 px-8 py-10'>
+    <section ref={ref} className='roboto flex flex-col justify-center items-center md:px-16 px-8 py-10'>
         <h3 className='text-4xl capitalize font-bold text-red-600'>About FitSync</h3>
         <p className='text-lg'>Where Strength Meets Commitment</p>
         <div className='flex border my-10 text-center rounded-2xl overflow-hidden'>
@@ -29,6 +29,6 @@ const About = () => {
         </div>
     </section>
   )
-}
+})
 
 export default About

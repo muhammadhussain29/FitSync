@@ -32,16 +32,18 @@ const Navbar = () => {
     return (
         <nav ref={navbar} className='roboto text-white fixed top-0 w-full flex justify-between items-end md:px-16 px-8 py-4 bg-black/50 transition-all duration-300'>
             <div className="md:text-3xl text-2xl font-bold">
-                <h3 className='text-red-600 playwrite'>FitSync</h3>
+                <h3 className='text-red-600 playwrite'>
+                    <Link to="/">FitSync</Link>
+                    </h3>
             </div>
 
             <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-14 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black md:bg-transparent`}>
-            <li><Link to="/">Home</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/product">Product</Link></li>
-                <li><Link to="/gallery">Gallery</Link></li>
+                <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/">Home</Link></li>
+                <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/blog">Blog</Link></li>
+                <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/product">Product</Link></li>
+                <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/gallery">Gallery</Link></li>
                 <li>
-                    <button className='w-auto bg-red-600 rounded-full text-white px-4 py-2 text-nowrap'>
+                    <button className='button'>
                         <Link className=' px-4 py-2' to="/member">Join FitSync</Link>
                     </button>
                 </li>
