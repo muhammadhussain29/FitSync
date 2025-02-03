@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 import Facilities from '../components/Facilities'
 import GallerySection from '../components/GallerySection'
+import ProductSection from '../components/ProductSection'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <About ref={learnMoreRef} />
             <Facilities />
             <GallerySection/>
+            <ProductSection/>
         </>
     )
 }
