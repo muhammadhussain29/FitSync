@@ -41,7 +41,7 @@ body{
     no-repeat;
   background-size: 300%;
   background-position: left center;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
   color: #fff;
 }
 

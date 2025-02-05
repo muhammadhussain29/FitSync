@@ -30,7 +30,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav ref={navbar} className='roboto text-white fixed top-0 w-full flex justify-between items-end md:px-16 px-8 py-4 bg-black/50 transition-all duration-300'>
+        <nav ref={navbar} className='z-50 roboto text-white fixed top-0 w-full flex justify-between items-end md:px-16 px-8 py-4 bg-black/50 transition-all duration-300'>
             <div className="md:text-3xl text-2xl font-bold">
                 <h3 className='text-red-600 playwrite'>
                     <Link to="/">FitSync</Link>
