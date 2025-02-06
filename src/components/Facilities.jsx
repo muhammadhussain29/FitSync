@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from '../assets/Facilities.jpg'
+import bgImg from '../assets/Facilities.webp'
 import FacilitiesCard from './FacilitiesCard';
 import { FaDumbbell, FaUserTie, FaUsers, FaHeartbeat } from "react-icons/fa";
 

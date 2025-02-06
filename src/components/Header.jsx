@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from '../assets/bg.jpg'
+import bgImg from '../assets/bg.webp'
 import { Link } from 'react-router-dom'
 
 const Header = (props) => {
