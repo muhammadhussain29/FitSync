@@ -13,10 +13,16 @@ const Navbar = () => {
         const handleScroll = () => {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             if (navbar.current) {
-                if (scrollTop > lastScrollTop.current) {
+                if (scrollTop <= '130') {
+                    navbar.current.style.top = '0'; // Show navbar on scroll up
+                    navbar.current.style.background = 'transparent';
+                }
+                else if (scrollTop > lastScrollTop.current) {
                     navbar.current.style.top = '-80px'; // Hide navbar on scroll down
+                    navbar.current.style.background = 'transparent';
                 } else {
                     navbar.current.style.top = '0'; // Show navbar on scroll up
+                    navbar.current.style.background = '#00000080';
                 }
             }
             lastScrollTop.current = scrollTop;
@@ -34,7 +40,7 @@ const Navbar = () => {
             <div className="md:text-3xl text-2xl font-bold">
                 <h3 className='text-red-600 playwrite'>
                     <Link to="/">FitSync</Link>
-                    </h3>
+                </h3>
             </div>
 
             <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-14 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black md:bg-transparent`}>

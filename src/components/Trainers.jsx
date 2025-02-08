@@ -8,7 +8,7 @@ const trainers = [
 
 const Trainers = () => {
     return (
-        <section className='text-center py-12 md:px-16 px-8 bg-gray-100'>
+        <section className='roboto text-center py-12 md:px-16 px-8 bg-gray-100'>
             {/* Heading */}
             <h3 className='text-4xl capitalize font-bold text-red-600'>Meet Our Expert Trainers</h3>
             <p className='text-lg text-gray-600'>Train with the best to achieve your fitness goals</p>
@@ -30,7 +30,7 @@ const Trainers = () => {
                             />
                         </div>
                         <h3 className="text-xl font-semibold text-red-600">{member.name}</h3>
-                        <span className="text-sm font-bold text-gray-500 uppercase">{member.detail}</span>
+                        <span className="text-sm font-bold text-gray-600 uppercase">{member.detail}</span>
                     </div>
                 ))}
             </div>
