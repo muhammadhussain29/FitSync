@@ -75,11 +75,11 @@ const ProductSection = () => {
   return (
     <section className="roboto text-center py-12 md:px-16 px-8">
       {/* Heading */}
-      <h3 className='text-4xl capitalize font-bold text-red-600'>Our Latest Products</h3>
-      <p className='text-lg text-gray-600' >Discover the best deals on high-quality products</p>
+      <h3 className='md:text-4xl text-3xl capitalize font-bold text-red-600'>Our Latest Products</h3>
+      <p className='md:text-lg text-base text-gray-600' >Discover the best deals on high-quality products</p>
 
       {/* Product Cards Grid */}
-      <div className="my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 justify-items-center">
+      <div className="my-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
         {product.slice(0, 4).map((elem, index) => {
           return <ProductCard elem={elem} key={index} />
         })}

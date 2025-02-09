@@ -32,8 +32,8 @@ const Facilities = () => {
 
     return (
         <div className='roboto bg-red-600/80 bg-blend-overlay md:px-16 px-8 py-10 text-center bg-cover bg-center' style={{ backgroundImage: `url(${bgImg})` }}>
-            <h3 className='text-4xl text-white capitalize font-bold'>Facilities That Redefine Fitness</h3>
-            <div className='flex justify-center gap-6 mt-10'>
+            <h3 className='md:text-4xl text-3xl text-white capitalize font-bold'>Facilities That Redefine Fitness</h3>
+            <div className='flex justify-center gap-6 mt-10 flex-wrap'>
                 {data.map((elem, index) => (
                     <FacilitiesCard elem={elem} key={index} />
                 ))}

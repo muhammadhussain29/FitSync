@@ -45,8 +45,8 @@ const GallerySection = () => {
 
   return (
     <section className="roboto text-center py-12 md:px-16 px-8">
-      <h3 className='text-4xl capitalize font-bold text-red-600'>Our Fitness Journey</h3>
-        <p className='text-lg text-gray-600'>Explore the moments that define FitSync</p>
+      <h3 className='md:text-4xl text-3xl capitalize font-bold text-red-600'>Our Fitness Journey</h3>
+        <p className='md:text-lg text-base text-gray-600'>Explore the moments that define FitSync</p>
 
       {/* Gallery Grid */}
       <div className="gallery grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] my-10">

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const navbar = useRef(null);
+    // const navList = useRef(null);
     const lastScrollTop = useRef(0); // Store previous scroll position
 
     const showNav = () => setNav(!nav);
@@ -20,6 +21,7 @@ const Navbar = () => {
                 else if (scrollTop > lastScrollTop.current) {
                     navbar.current.style.top = '-80px'; // Hide navbar on scroll down
                     navbar.current.style.background = 'transparent';
+                    setNav(false);
                 } else {
                     navbar.current.style.top = '0'; // Show navbar on scroll up
                     navbar.current.style.background = '#00000080';
@@ -43,7 +45,7 @@ const Navbar = () => {
                 </h3>
             </div>
 
-            <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-14 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black md:bg-transparent`}>
+            <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-16 py-3 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black/50 md:bg-transparent`}>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/">Home</Link></li>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/blog">Blog</Link></li>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/product">Product</Link></li>
