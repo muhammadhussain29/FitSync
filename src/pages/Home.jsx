@@ -11,7 +11,7 @@ const Home = () => {
     const learnMoreRef = useRef(null);
 
     const handleScroll = () => {
-      learnMoreRef.current?.scrollIntoView({ behavior: "smooth" });
+        learnMoreRef.current?.scrollIntoView({ behavior: "smooth" });
     };
 
     return (
@@ -19,9 +19,9 @@ const Home = () => {
             <Header handleScroll={handleScroll} />
             <About ref={learnMoreRef} />
             <Facilities />
-            <GallerySection/>
-            <ProductSection/>
-            <Trainers/>
+            <GallerySection />
+            <ProductSection />
+            <Trainers />
         </>
     )
 }

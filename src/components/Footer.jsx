@@ -16,13 +16,13 @@ const Footer = () => {
                     <p className="md:text-base text-sm mt-3 flex items-center md:justify-normal justify-center gap-3"><FaLocationArrow /> House 123/C, XYZ Road, City</p>
                     <p className='md:text-base text-sm flex items-center md:justify-normal justify-center gap-3'> <FaPhoneAlt /> 000-000-000</p>
                     <div className="flex gap-4 mt-3 md:justify-normal justify-center text-xl">
-                        <div className='cursor-pointer bg-white text-red-600 hover:text-red-700 p-1 rounded-full transition hover:scale-110'>
+                        <div className='cursor-pointer bg-white text-red-600 hover:bg-gray-400 p-1 rounded-full transition hover:scale-110'>
                             <FaFacebook className="text-xl " />
                         </div>
-                        <div className='cursor-pointer bg-white text-red-600 hover:text-red-700 p-1 rounded-full transition hover:scale-110'>
+                        <div className='cursor-pointer bg-white text-red-600 hover:bg-gray-400 p-1 rounded-full transition hover:scale-110'>
                             <FaInstagram className="text-xl" />
                         </div>
-                        <div className='cursor-pointer bg-white text-red-600 hover:text-red-700 p-1 rounded-full transition hover:scale-110'>
+                        <div className='cursor-pointer bg-white text-red-600 hover:bg-gray-400 p-1 rounded-full transition hover:scale-110'>
                             <MdEmail className="text-xl" />
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Footer = () => {
                             className="w-full p-2 rounded text-gray-600 bg-white h-16 outline-none focus:ring-2 focus:ring-gray-300"
                         ></textarea>
                         <button className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700 w-full transition">
-                            Subscribe
+                            Send Message
                         </button>
                     </form>
                 </div>
