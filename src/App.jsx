@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -8,12 +8,17 @@ import Gallery from './pages/Gallery'
 import Product from './pages/Product'
 import Member from './pages/Member'
 import Cart_Top_Buttton from './components/Cart_Top_Buttton'
+import Cart from './components/Cart'
 
 
 const App = () => {
+
+  const [showCart, setShowCart] = useState(false)
+
   return (
     <div className='h-full'>
       <Navbar />
+      <Cart showCart={showCart} setShowCart={setShowCart} />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
@@ -21,7 +26,7 @@ const App = () => {
         <Route path="/product" element={<Product />} />
         <Route path="/member" element={<Member />} />
       </Routes>
-      <Cart_Top_Buttton />
+      <Cart_Top_Buttton setShowCart={setShowCart} />
       <Footer />
     </div>
   )
