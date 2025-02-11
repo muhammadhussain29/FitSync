@@ -22,6 +22,7 @@ body{
 
 .button {
   display: flex;
+  justify-content: center;
   gap: 0.4rem;
   border: none;
   border-radius: 30px;
@@ -50,3 +51,35 @@ body{
   background-position: right center;
 }
 
+.gray-bg-button {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(
+      15deg,
+      #1a1a1a,  /* Dark Gray */
+      #333333,  /* Gray */
+      #4d4d4d,  /* Medium Gray */
+      #666666,  /* Light Gray */
+      #808080,  /* Lighter Gray */
+      #666666,  /* Light Gray */
+      #4d4d4d,  /* Medium Gray */
+      #333333,  /* Gray */
+      #1a1a1a   /* Dark Gray */
+    ) 
+    no-repeat;
+    background-size: 300%;
+    background-position: left center;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.gray-bg-button:hover {
+  background-size: 320%;
+  background-position: right center;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for WebKit browsers */
+}
