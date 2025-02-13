@@ -26,16 +26,16 @@ const Cart = (props) => {
     }
 
     return (
-        <div className={`${props.showCart ? 'block' : 'hidden'} flex flex-col justify-between roboto z-[60] bg-white w-[300px] h-[95vh] fixed top-5 right-5 rounded-3xl px-2 py-3`}>
+        <div className={`${props.showCart ? 'block' : 'hidden'} flex flex-col justify-between md:gap-4 gap-2 roboto z-[60] bg-white lg:w-[320px] md:w-[280px] w-[250px] h-[95vh] fixed top-5 md:right-5 right-2 rounded-3xl px-2 py-3`}>
             {/* Header */}
             <div className='flex justify-between items-center'>
-                <button onClick={closeCart} className='p-2 text-xl text-red-600'> <ImCancelCircle /></button>
-                <h4 className='text-2xl text-red-600 font-semibold capitalize'>Your Cart</h4>
-                <div className='p-2 text-xl text-red-600'><FaCartShopping /></div>
+                <button onClick={closeCart} className='p-2 md:text-xl text-lg text-red-600'> <ImCancelCircle /></button>
+                <h4 className='md:text-2xl text-lg text-red-600 font-semibold capitalize'>Your Cart</h4>
+                <div className='p-2 md:text-xl text-lg text-red-600'><FaCartShopping /></div>
             </div>
 
             {/* Item Cards */}
-            <div className='h-[60%] overflow-y-scroll mx-3 scrollbar-hide'>
+            <div className='h-[70%] overflow-y-scroll mx-3 scrollbar-hide'>
                 {cartItem.map((elem, index)=>{
                     return <CartItem elem={elem} key={index}/>
                 })}
@@ -43,11 +43,11 @@ const Cart = (props) => {
 
             {/* bottom */}
             <div className='flex flex-col gap-2'>
-                <p className='leading-3 text-right px-3 text-base capitalize text-gray-600'>total : <span className='w-10 inline-block'>00</span></p>
-                <p className='leading-3 text-right px-3 text-base capitalize text-gray-600'>delivery : <span className='w-10 inline-block'>00</span></p>
-                <p className='leading-3 text-right px-3 text-base capitalize text-gray-600'>Grand total : <span className='w-10 inline-block'>00</span></p>
-                <button className='button px-5 py-3 mt-3'>Continue Shopping</button>
-                <button className='gray-bg-button rounded-full text-white px-5 py-3'>Proceed</button>
+                <p className='md:leading-3 leading-2 text-right px-3 md:text-base text-sm capitalize text-gray-600'>total : <span className='w-10 inline-block'>00</span></p>
+                <p className='md:leading-3 leading-2 text-right px-3 md:text-base text-sm capitalize text-gray-600'>delivery : <span className='w-10 inline-block'>00</span></p>
+                <p className='md:leading-3 leading-2 text-right px-3 md:text-base text-sm capitalize text-gray-600'>Grand total : <span className='w-10 inline-block'>00</span></p>
+                <button className='button px-5 md:py-3 py-2 md:mt-3 mt-1'>Continue Shopping</button>
+                <button className='gray-bg-button rounded-full text-white px-5 md:py-3 py-2'>Proceed</button>
             </div>
         </div>
     )

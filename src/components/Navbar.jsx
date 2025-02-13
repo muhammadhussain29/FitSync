@@ -45,7 +45,7 @@ const Navbar = () => {
                 </h3>
             </div>
 
-            <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-16 py-3 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black/50 md:bg-transparent`}>
+            <ul className={`md:w-auto md:flex md:flex-row md:static w-full items-center absolute top-12 py-3 left-0 flex-col ${nav ? 'flex' : 'hidden'} lg:gap-6 md:gap-4 gap-3 md:text-lg text-base bg-black/50 md:bg-transparent`}>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/">Home</Link></li>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/blog">Blog</Link></li>
                 <li className='hover:text-red-600 hover:scale-110 transition '><Link to="/product">Product</Link></li>
