@@ -11,11 +11,14 @@ const Cart_Top_Buttton = (props) => {
         props.setShowCart(true)
     }
 
+    const [cartItems, setCartItems] = useState(2)
+
     return (
         <div className="fixed bottom-7 right-7 flex flex-col gap-4">
-            <button 
-            className="bg-gray-900 text-white rounded-full p-4 text-2xl shadow-lg hover:bg-gray-700 transition"
-            onClick={cart}>
+            <button
+                className="bg-gray-900 text-white rounded-full p-4 text-2xl shadow-lg hover:bg-gray-700 transition"
+                onClick={cart}>
+                <div className={`absolute -top-3 -left-3 bg-red-600 justify-center items-center w-7 h-7 rounded-full text-sm ${cartItems ? "flex" : "hidden"} `}>{cartItems}</div>
                 <FaShoppingCart />
             </button>
             <button
