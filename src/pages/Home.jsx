@@ -5,6 +5,7 @@ import Facilities from '../components/Facilities'
 import GallerySection from '../components/GallerySection'
 import ProductSection from '../components/ProductSection'
 import Trainers from '../components/Trainers'
+import FAQ from '../components/FAQ'
 
 const Home = () => {
 
@@ -22,6 +23,7 @@ const Home = () => {
             <GallerySection />
             <ProductSection />
             <Trainers />
+            <FAQ/>
         </>
     )
 }
