@@ -9,6 +9,7 @@ import Product from './pages/Product'
 import Member from './pages/Member'
 import Cart_Top_Buttton from './components/Cart_Top_Buttton'
 import Cart from './components/Cart'
+import ProductData from './context/productData'
 
 
 const App = () => {
@@ -20,10 +21,18 @@ const App = () => {
       <Navbar />
       <Cart showCart={showCart} setShowCart={setShowCart} />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={
+          <ProductData>
+            <Home />
+          </ProductData>
+        } />
+        <Route path="/product" element={
+          <ProductData>
+            <Product />
+          </ProductData>
+        }  />
         <Route path="/blog" element={<Blog />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/product" element={<Product />} />
         <Route path="/member" element={<Member />} />
       </Routes>
       <Cart_Top_Buttton setShowCart={setShowCart} />
