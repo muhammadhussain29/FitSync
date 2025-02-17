@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import ProductHeader from '../components/ProductHeader';
 import ProductSection from '../components/ProductSection';
 import FAQ from '../components/FAQ';
+import ReviewSlider from '../components/ReviewSlider';
 import { ProductsList } from '../context/productData';
 
 const Product = () => {
@@ -59,9 +60,7 @@ const Product = () => {
       <ProductSection heading={"Power Up with Essential Supplements"} subheading={"Boost Strength, Endurance, and Recovery with Our Expertly Crafted Formulas."} products={supplements} button={false}/>
       {/* Accessories */}
       <ProductSection heading={" Accessorize Your Fitness Journey!"} subheading={"From Lifting Gloves to Resistance Bands – We've Got You Covered."} products={accessory} button={false}/>
-      {/* testimonals/reviews */}
-      {/* Slider for this */}
-
+      <ReviewSlider />
       <FAQ heading={"Supplement & Accessory FAQs"} subheading={"Get Insights to Make Informed Choices for Your Fitness Journey."} faqs={faqs}/>
 
     </>

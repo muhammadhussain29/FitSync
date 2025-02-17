@@ -6,7 +6,7 @@ const Header = (props) => {
 
     return (
         <header
-            className="roboto text-white bg-red-800/20 bg-blend-overlay flex flex-col justify-center md:px-16 px-8 w-full h-screen bg-cover bg-center"
+            className="roboto text-white bg-black/40 bg-blend-overlay flex flex-col justify-center md:px-16 px-8 w-full h-screen bg-cover bg-center"
             style={{ backgroundImage: `url(${bgImg})` }}
         >
             <h1 className='lg:text-7xl sm:text-5xl text-2xl md:text-left text-center capitalize font-semibold text-red-600'><span className='stroke font-sans'>Sync</span> Your Strength,</h1>
