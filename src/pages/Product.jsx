@@ -1,8 +1,13 @@
 import React from 'react'
+import ProductHeader from '../components/ProductHeader'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <>
+      <ProductHeader/>
+
+      {/* Feature products - Supplements - accessories - testimonals/reviews */}
+    </>
   )
 }
 
