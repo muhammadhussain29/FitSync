@@ -11,7 +11,7 @@ const ProductSection = (props) => {
       <p className='md:text-lg text-base text-gray-600' >{props.subheading}</p>
 
       {/* Product Cards Grid */}
-      <div className="my-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
+      <div className="flex justify-center items-center gap-10 flex-wrap my-10">
         {props.products.map((elem, index) => {
           return <ProductCard elem={elem} key={index} />
         })}
