@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import ProductHeader from '../components/ProductHeader';
+import SecondaryHeader from '../components/SecondaryHeader';
 import ProductSection from '../components/ProductSection';
 import FAQ from '../components/FAQ';
 import ReviewSlider from '../components/ReviewSlider';
@@ -53,7 +53,7 @@ const Product = () => {
 
   return (
     <>
-      <ProductHeader/>
+      <SecondaryHeader heading={"Gear Up. Power On."} subheading={"Explore Premium Gym Products for Every Fitness Level"} text={"At FitSync, we offer a curated selection of premium gym equipment, stylish apparel, and performance-boosting supplements. Whether you're a beginner or a seasoned athlete, our products are designed to help you train smarter, recover faster, and stay motivated on your fitness journey. Gear up and stay ahead!"} button={["View Best Sellers","Explore Products"]}/>
       {/* Featured Products */}
       <ProductSection heading={"Hot Picks of the Month!"} subheading={"Don't Miss Out on Our Must-Have Gym Essentials."} products={featured} button={false}/>
       {/* Supplements */}

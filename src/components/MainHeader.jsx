@@ -2,7 +2,7 @@ import React from 'react'
 import bgImg from '../assets/bg.webp'
 import { Link } from 'react-router-dom'
 
-const Header = (props) => {
+const MainHeader = (props) => {
 
     return (
         <header
@@ -23,4 +23,4 @@ const Header = (props) => {
     )
 }
 
-export default Header
+export default MainHeader

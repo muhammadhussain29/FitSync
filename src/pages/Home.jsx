@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react'
-import Header from '../components/Header'
+import MainHeader from '../components/MainHeader'
 import About from '../components/About'
 import Facilities from '../components/Facilities'
 import GallerySection from '../components/GallerySection'
@@ -44,7 +44,7 @@ const Home = () => {
 
     return (
         <>
-            <Header handleScroll={handleScroll} />
+            <MainHeader handleScroll={handleScroll} />
             <About ref={learnMoreRef} />
             <Facilities />
             <GallerySection />
