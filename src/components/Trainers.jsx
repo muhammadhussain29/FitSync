@@ -8,7 +8,7 @@ const trainers = [
 
 const Trainers = () => {
     return (
-        <section className='roboto text-center py-12 md:px-16 px-8 bg-gray-100'>
+        <section className='roboto text-center py-12 md:px-16 px-8'>
             {/* Heading */}
             <h3 className='md:text-4xl text-3xl capitalize font-bold text-red-600'>Meet Our Expert Trainers</h3>
             <p className='md:text-lg text-base text-gray-600'>Train with the best to achieve your fitness goals</p>

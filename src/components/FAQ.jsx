@@ -8,7 +8,7 @@ const FAQ = ({ heading , subheading , faqs }) => {
   };
 
   return (
-    <div className="roboto py-12 md:px-16 mb-10 px-8 max-w-[1000px] mx-auto">
+    <section className="roboto py-12 md:px-16 px-8 max-w-[1000px] mx-auto">
       <h2 className="md:text-4xl text-3xl capitalize font-bold text-red-600 text-center">{heading}</h2>
       <p className='md:text-lg text-base text-gray-600 text-center md:mb-12'>{subheading}</p>
       <div className="space-y-4 mt-10">
@@ -29,7 +29,7 @@ const FAQ = ({ heading , subheading , faqs }) => {
         ))}
         {/* Faqs mapping */}
       </div>
-    </div>
+    </section>
   );
 };
 

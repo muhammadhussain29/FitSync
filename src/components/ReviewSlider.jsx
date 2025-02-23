@@ -3,41 +3,7 @@ import ReviewCard from './ReviewCard';
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
-const data = [
-  {
-    "name": "John Doe",
-    "review": "FitSync has completely transformed my workout routine. The tracking features are easy to use, and the workout plans are top-notch. Highly recommend!",
-    "location": "New York, NY",
-    "rating": 5
-  },
-  {
-    "name": "Sarah Lee",
-    "review": "I love how FitSync helps me stay motivated. The interface is user-friendly, and the progress tracking is excellent. It's the perfect app for anyone serious about fitness.",
-    "location": "Los Angeles, CA",
-    "rating": 4
-  },
-  {
-    "name": "Michael Johnson",
-    "review": "FitSync is a great product, but I think it could benefit from more advanced customization options for workout routines. Otherwise, it's a solid choice for tracking workouts.",
-    "location": "Chicago, IL",
-    "rating": 4
-  },
-  {
-    "name": "Emily Davis",
-    "review": "I’ve been using FitSync for a few months now, and it has really helped me stay on track with my fitness goals. The integration with my smartwatch is seamless.",
-    "location": "Miami, FL",
-    "rating": 5
-  },
-  {
-    "name": "David Smith",
-    "review": "The app is good, but I wish there were more community features to connect with other users. Overall, the workout plans are helpful, and the tracking works well.",
-    "location": "Austin, TX",
-    "rating": 3
-  }
-]
-
-
-const Testimonal = () => {
+const Testimonal = ({ heading, subheading, data }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = useRef([]); // Array of refs for slides
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -107,8 +73,8 @@ const Testimonal = () => {
 
   return (
     <section className="roboto text-center py-12">
-      <h3 className='md:text-4xl text-3xl capitalize font-bold text-red-600'>User Reviews</h3>
-      <p className='md:text-lg text-base text-gray-600'>See the difference FitSync can make for you.</p>
+      <h3 className='md:text-4xl text-3xl capitalize font-bold text-red-600'>{heading}</h3>
+      <p className='md:text-lg text-base text-gray-600'>{subheading}</p>
       <div className='w-full h-[300px] relative overflow-hidden flex justify-center items-center mt-10 mb-5'>
         {data.map((elem, index) => (
           <ReviewCard

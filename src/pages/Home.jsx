@@ -47,7 +47,7 @@ const Home = () => {
             <MainHeader handleScroll={handleScroll} />
             <About ref={learnMoreRef} />
             <Facilities />
-            <GallerySection />
+            <GallerySection heading={"Our Fitness Journey"} subheading={"Explore the moments that define FitSync"} btn={"Visit Gallery"} />
             <ProductSection heading={"Our Latest Products"} subheading={"Discover the best deals on high-quality products"} products={product.slice(0,4)} button={"View All Products"} />
             <Trainers />
             <FAQ heading={"Got Questions? We've Got Answers!"} subheading={"Explore our FAQs to learn more about FitSync and how we can help you achieve your fitness goals"} faqs={faqs}/>
