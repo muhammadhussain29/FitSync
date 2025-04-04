@@ -40,35 +40,6 @@ const Gallery = () => {
       <SecondaryHeader heading={"Step Inside FitSync"} subheading={"World-class facilities, top-notch equipment, and an unbeatable atmosphere."} text={"Our gallery captures the energy, discipline, and passion of FitSync members. From intense workouts to inspiring achievements, take a look at what makes FitSync special."} button={["Take a Virtual Tour"]}/>
       {/* Achievements Section */}
       <Achievement />
-{/* <section className="py-16 px-8 text-center bg-gray-100">
-  <div className="max-w-4xl mx-auto">
-    <h2 className="text-4xl font-bold text-red-600">Our Achievements</h2>
-    <p className="text-lg text-gray-700 mt-2">
-      Celebrating milestones, success stories, and fitness transformations.
-    </p>
-  </div> */}
-
-  {/* Achievement Cards */}
-  {/* <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 md:px-0">
-    
-    <div className="bg-white shadow-xl p-8 rounded-lg border-t-4 border-red-600 transform hover:scale-105 transition duration-300">
-      <h3 className="text-2xl font-semibold text-gray-900">1000+ Happy Members</h3>
-      <p className="text-gray-600 mt-2">A thriving fitness community growing stronger every day.</p>
-    </div>
-
-    <div className="bg-white shadow-xl p-8 rounded-lg border-t-4 border-red-600 transform hover:scale-105 transition duration-300">
-      <h3 className="text-2xl font-semibold text-gray-900">Award-Winning Trainers</h3>
-      <p className="text-gray-600 mt-2">Certified professionals dedicated to your fitness journey.</p>
-    </div>
-
-    <div className="bg-white shadow-xl p-8 rounded-lg border-t-4 border-red-600 transform hover:scale-105 transition duration-300">
-      <h3 className="text-2xl font-semibold text-gray-900">10+ Major Fitness Events</h3>
-      <p className="text-gray-600 mt-2">Uniting fitness enthusiasts through exciting challenges.</p>
-    </div>
-
-  </div>
-</section> */}
-
 
       {/* Main Gallery */}
       <GallerySection heading={"FitSync in Action"} subheading={"Explore our gallery of inspiring fitness journeys, achievements, and community events."} btn={"View More"} />
