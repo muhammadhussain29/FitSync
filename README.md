@@ -78,19 +78,19 @@ FitSync/
 ## 🖼️ Screenshots
 
 ### Home Page
-![FashionVista Home Page Screenshot](Preview/home.jpg)
+![FashionVista Home Page Screenshot](preview/home.jpg)
 
 ### Blog Page
-![FashionVista Blog Page Screenshot](Preview/blog.jpg)
+![FashionVista Blog Page Screenshot](preview/blog.jpg)
 
 ### Gallery Page
-![FashionVista Gallery Page Screenshot](Preview/gallery.jpg)
+![FashionVista Gallery Page Screenshot](preview/gallery.jpg)
 
 ### Product Page
-![FashionVista Product Page Screenshot](Preview/product.jpg)
+![FashionVista Product Page Screenshot](preview/product.jpg)
 
 ### Join-us Page
-![FashionVista Join-us Page Screenshot](Preview/join.jpg)
+![FashionVista Join-us Page Screenshot](preview/join.jpg)
 
 ## ✍️ Author
 
