@@ -9,7 +9,7 @@ const blogs = [
     author: "Sarah Brown",
     date: { day: "10", month: "FEB" },
     excerpt: "Discover the best supplements to maximize muscle gain.",
-    image: "/images/gallery5.jpg",
+    image: "/images/gallery5.webp",
     text: "Building muscle requires more than just lifting weights—it also depends on proper nutrition. In this article, we explore the best supplements that can enhance muscle recovery, increase protein synthesis, and fuel your workouts effectively."
   },
   {
@@ -17,7 +17,7 @@ const blogs = [
     author: "David Lee",
     date: { day: "22", month: "APR" },
     excerpt: "Speed up your recovery with expert-backed methods!",
-    image: "/images/gallery2.jpg",
+    image: "/images/gallery2.webp",
     text: "Athletes need to recover efficiently to perform at their best. This guide covers active recovery techniques, stretching routines, hydration tips, and nutritional strategies to help you bounce back after intense workouts."
   },
   {
@@ -25,7 +25,7 @@ const blogs = [
     author: "Jessica Carter",
     date: { day: "5", month: "JUN" },
     excerpt: "Stay consistent with your fitness goals using this guide.",
-    image: "/images/gallery8.jpg",
+    image: "/images/gallery8.webp",
     text: "Starting a gym routine is easy, but staying consistent is the real challenge. Learn how to set realistic fitness goals, stay motivated, and develop habits that will keep you on track for long-term success."
   },
   {
@@ -33,7 +33,7 @@ const blogs = [
     author: "Mike Thompson",
     date: { day: "18", month: "JUL" },
     excerpt: "Find out which training style aligns with your fitness goals.",
-    image: "/images/gallery1.jpg",
+    image: "/images/gallery1.webp",
     text: "Should you focus more on cardio or strength training? This article breaks down the benefits of each and provides insight on how to balance both for optimal fitness results."
   },
   {
@@ -41,7 +41,7 @@ const blogs = [
     author: "Emily Roberts",
     date: { day: "8", month: "AUG" },
     excerpt: "Burn fat effectively with these science-backed nutrition tips.",
-    image: "/images/gallery2.jpg",
+    image: "/images/gallery2.webp",
     text: "Losing fat isn’t just about exercise—it’s also about smart eating. Here are the best foods to include in your diet to help burn fat efficiently while maintaining muscle mass."
   },
   {
@@ -49,7 +49,7 @@ const blogs = [
     author: "Ryan Wilson",
     date: { day: "12", month: "SEP" },
     excerpt: "Set up your home gym with these must-have essentials.",
-    image: "/images/gallery4.jpg",
+    image: "/images/gallery4.webp",
     text: "Building a home gym doesn’t have to be expensive. We’ve compiled a list of budget-friendly and essential equipment pieces that will help you get the most out of your workouts at home."
   },
   {
@@ -57,7 +57,7 @@ const blogs = [
     author: "Jason Scott",
     date: { day: "25", month: "OCT" },
     excerpt: "Avoid these errors to maximize your muscle growth and progress.",
-    image: "/images/gallery6.jpg",
+    image: "/images/gallery6.webp",
     text: "Many gym-goers unknowingly sabotage their progress. From poor nutrition to improper workout techniques, here are five common mistakes to avoid to see better results."
   },
   {
@@ -65,7 +65,7 @@ const blogs = [
     author: "Sophia Clark",
     date: { day: "3", month: "DEC" },
     excerpt: "Understand how pre-workout formulas boost performance.",
-    image: "/images/gallery7.jpg",
+    image: "/images/gallery7.webp",
     text: "Pre-workout supplements promise increased energy and endurance, but how do they work? We break down the key ingredients, benefits, and potential side effects of pre-workout formulas."
   },
   {
@@ -73,7 +73,7 @@ const blogs = [
       author: "Ryan Wilson",
       date: { day: "12", month: "SEP" },
       excerpt: "Set up your home gym with these must-have essentials.",
-      image: "/images/gallery3.jpg",
+      image: "/images/gallery3.webp",
       text: "Building a home gym doesn’t have to be expensive. We’ve compiled a list of budget-friendly and essential equipment pieces that will help you get the most out of your workouts at home."
     }
 ];
