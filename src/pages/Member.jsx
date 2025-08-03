@@ -65,12 +65,12 @@ const Member = () => {
         <div className="mx-auto md:my-0 my-10">
           {/* left */}
           <div className="flex items-end sm:translate-x-4">
-            <img src="/images/gallery4.webp" alt="" className="h-[140px] sm:h-[170px] md:h-[200px] lg:h-[250px] xl:h-[300px] m-2" />
-            <img src="/images/gallery21.webp" alt="" className="w-[170px] sm:w-[200px] md:w-[230px] lg:w-[330px] xl:w-[380px] h-full m-2" />
+            <img src="images/gallery4.webp" alt="" className="h-[140px] sm:h-[170px] md:h-[200px] lg:h-[250px] xl:h-[300px] m-2" />
+            <img src="images/gallery21.webp" alt="" className="w-[170px] sm:w-[200px] md:w-[230px] lg:w-[330px] xl:w-[380px] h-full m-2" />
           </div>
           <div className="flex sm:-translate-x-12 -translate-x-8">
-            <img src="/images/gallery16.webp" alt="" className="w-[170px] sm:w-[200px] md:w-[230px] lg:w-[280px] xl:w-[330px] h-full m-2" />
-            <img src="/images/gallery15.webp" alt="" className="h-[190px] sm:h-[220px] md:h-[200px] lg:h-[250px] xl:h-[300px] m-2" />
+            <img src="images/gallery16.webp" alt="" className="w-[170px] sm:w-[200px] md:w-[230px] lg:w-[280px] xl:w-[330px] h-full m-2" />
+            <img src="images/gallery15.webp" alt="" className="h-[190px] sm:h-[220px] md:h-[200px] lg:h-[250px] xl:h-[300px] m-2" />
           </div>
         </div>
         {/* right */}

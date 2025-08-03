@@ -6,149 +6,149 @@ const ProductData = ({ children }) => {
 
     const product = [
         {
-          "image": "/products/product1.png",
+          "image": "products/product1.png",
           "name": "Whey Protein",
           "price": 54.99,
           "featured" : true,
           "type" : "supplement"
         },
         {
-          "image": "/products/product2.png",
+          "image": "products/product2.png",
           "name": "Pre Workout",
           "price": 49.99,
           "type" : "supplement"
         },
         {
-          "image": "/products/product3.png",
+          "image": "products/product3.png",
           "name": "Lifting Gloves",
           "price": 44.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product4.png",
+          "image": "products/product4.png",
           "name": "Smart Water Bottle",
           "price": 39.99,
           "featured" : true,
           "type" : "accessory"
         },
         {
-          "image": "/products/product5.png",
+          "image": "products/product5.png",
           "name": "Mass Gainer",
           "price": 59.99,
           "type" : "supplement"
         },
         {
-          "image": "/products/product6.png",
+          "image": "products/product6.png",
           "name": "Wrist Wraps",
           "price": 19.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product7.png",
+          "image": "products/product7.png",
           "name": "Weight Lifting Belt",
           "price": 34.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product8.png",
+          "image": "products/product8.png",
           "name": "Shaker",
           "price": 24.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product9.png",
+          "image": "products/product9.png",
           "name": "Shaker",
           "price": 19.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product10.png",
+          "image": "products/product10.png",
           "name": "Sweat Proof Towel",
           "price": 24.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product11.png",
+          "image": "products/product11.png",
           "name": "Wrist Wrap and Straps",
           "price": 49.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product12.png",
+          "image": "products/product12.png",
           "name": "Blender Bottle",
           "price": 29.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product13.png",
+          "image": "products/product13.png",
           "name": "Sweat Proof Towel",
           "price": 19.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product14.png",
+          "image": "products/product14.png",
           "name": "Jumping Rope",
           "price": 9.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product15.png",
+          "image": "products/product15.png",
           "name": "Massage Gun",
           "price": 49.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product16.png",
+          "image": "products/product16.png",
           "name": "Massage Gun",
           "price": 59.99,
           "featured" : true,
           "type" : "accessory"
         },
         {
-          "image": "/products/product17.png",
+          "image": "products/product17.png",
           "name": "Yoga Matt",
           "price": 19.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product18.png",
+          "image": "products/product18.png",
           "name": "Gym Bag",
           "price": 19.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product19.png",
+          "image": "products/product19.png",
           "name": "Fitness Band",
           "price": 39.99,
           "featured" : true,
           "type" : "accessory"
         },
         {
-          "image": "/products/product20.png",
+          "image": "products/product20.png",
           "name": "Fitness Band",
           "price": 34.99,
           "type" : "accessory"
         },
         {
-          "image": "/products/product21.png",
+          "image": "products/product21.png",
           "name": "Post Workout",
           "price": 44.99,
           "type" : "supplement"
         },
         {
-          "image": "/products/product22.png",
+          "image": "products/product22.png",
           "name": "Post Workout",
           "price": 39.99,
           "type" : "supplement"
         },
         {
-          "image": "/products/product23.png",
+          "image": "products/product23.png",
           "name": "Protein Powder",
           "price": 34.99,
           "type" : "supplement"
         },
         {
-          "image": "/products/product24.png",
+          "image": "products/product24.png",
           "name": "Water Bottle",
           "price": 14.99,
           "type" : "accessory"
