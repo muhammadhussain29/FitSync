@@ -2,6 +2,11 @@
 
 **FitSync** is a sleek and responsive gym website built using **React**, **Vite**, and **Tailwind CSS**. It features five fully functional pages with smooth navigation, reusable components, responsive design, and a clean modern UI. The project is ideal for showcasing gym services, promoting fitness plans, displaying media, and collecting leads.
 
+## 🧑‍💻 Live Preview
+
+> [Check Live Demo](https://muhammadhussain29.github.io/FitSync/) 
+
+---
 
 ## 🚀 Tech Stack
 
